@@ -38,6 +38,10 @@ public class snapdeal {
 		
 		driver.switchTo().defaultContent();
 
+		System.out.println("Logged in Successfully");
+		
+		Thread.sleep(5000);
+		
 		driver.close();
 	
 		
